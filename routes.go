@@ -25,7 +25,7 @@ func (c *Controller) MiddlewareTracking() web.MiddlewareFunc {
 		return func(ctx *web.Context) error {
 
 			if ctx.Request.GetParam(trackingParam) == trackingEnabled {
-				go c.handleTracking(ctx)
+				c.handleTracking(ctx)
 			}
 
 			return next(ctx)
