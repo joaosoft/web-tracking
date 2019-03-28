@@ -1,0 +1,6 @@
+{
+  "web-tracking": {
+    "host": "localhost:8002",
+    "tracking_host": "localhost:8001/api/v1/tracking/event"
+  }
+}
