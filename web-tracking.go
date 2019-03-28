@@ -58,7 +58,7 @@ func NewWebTracking(options ...WebTrackingOption) (*WebTracking, error) {
 	controller := NewController(service)
 	controller.RegisterRoutes(web)
 
-	service.pm.AddWeb("api_web", web)
+	service.pm.AddWeb("api_web_web_tracking", web)
 
 	return service, nil
 }
