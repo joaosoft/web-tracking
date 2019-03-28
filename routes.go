@@ -15,7 +15,7 @@ func (c *Controller) RegisterRoutes(w manager.IWeb) error {
 		return err
 	}
 
-	w.AddFilter("*", string(web.PositionBefore), c.MiddlewareTracking(), string(web.MethodPost))
+	w.AddFilter("*", string(web.PositionBefore), c.MiddlewareTracking(), string(web.MethodAny))
 
 	return nil
 }
@@ -62,7 +62,7 @@ func (c *Controller) handleTracking(ctx *web.Context) {
 		return
 	}
 
-	bytes, err := json.Marshal(trackingRequest)
+	bytes, err := json.Marshal(trackingRequest.Tracking)
 	if err != nil {
 		c.service.logger.Error(ErrorHandlingTracking.Format(err.Error()))
 		return
