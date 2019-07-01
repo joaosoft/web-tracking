@@ -38,6 +38,8 @@ Body:
 		"action": "action",
 		"label": "label",
 		"value": 1,
+		"viewer": "joao",
+		"viewed": "jessica",
 		"street": "rua particular de monsanto",
 		"meta_data": {
 			"teste_1": "teste",
@@ -60,6 +62,8 @@ Body:
 		"action": "action",
 		"label": "label",
 		"value": 1,
+		"viewer": "joao",
+        "viewed": "jessica",
 		"latitude": 41.1718238,
 		"longitude": -8.6186277,
 		"meta_data": {
