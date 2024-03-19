@@ -56,7 +56,7 @@ func (c *Controller) handleTracking(ctx *web.Context) {
 	}
 
 	// handle tracking
-	request, err := c.service.webClient.NewRequest(web.MethodPost, c.service.config.TrackingHost)
+	request, err := c.service.webClient.NewRequest(web.MethodPost, c.service.config.TrackingHost, web.ContentTypeApplicationJSON, nil)
 	if err != nil {
 		c.service.logger.Error(ErrorHandlingTracking.Format(err.Error()))
 		return
@@ -68,7 +68,7 @@ func (c *Controller) handleTracking(ctx *web.Context) {
 		return
 	}
 
-	response, err := request.WithBody(bytes, web.ContentTypeApplicationJSON).Send()
+	response, err := request.WithBody(bytes).Send()
 	if err != nil {
 		c.service.logger.Error(ErrorHandlingTracking.Format(err.Error()))
 		return

@@ -6,6 +6,6 @@ import (
 )
 
 var (
-	ErrorHandlingTracking = errors.New(errors.ErrorLevel, int(web.StatusNotFound), "error handling tracking [error: %s]")
-	ErrorTrackingStatus   = errors.New(errors.ErrorLevel, 1, "error sending tracking [status: %d, error: %s]")
+	ErrorHandlingTracking = errors.New(errors.LevelError, int(web.StatusNotFound), "error handling tracking [error: %s]")
+	ErrorTrackingStatus   = errors.New(errors.LevelError, 1, "error sending tracking [status: %d, error: %s]")
 )

@@ -43,7 +43,7 @@ github.com/joaosoft/manager
 # github.com/joaosoft/validator v0.0.0-20230531142908-28a5b2f72266
 ## explicit; go 1.20
 github.com/joaosoft/validator
-# github.com/joaosoft/web v0.0.0-20230531143830-cd31d8a8c35e
+# github.com/joaosoft/web v0.0.0-20230602093036-331880399e29
 ## explicit; go 1.20
 github.com/joaosoft/web
 # github.com/joaosoft/writers v0.0.0-20230531142123-83465954fcda

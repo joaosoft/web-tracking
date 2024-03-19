@@ -143,8 +143,8 @@ github.com/joaosoft/manager v0.0.0-20230531145924-a549066d2284 h1:mQ/SgLQ678v+k1
 github.com/joaosoft/manager v0.0.0-20230531145924-a549066d2284/go.mod h1:GYebm9SVc7PdFY11laaRNT6rdTpHXHip0J4VfW9QCHo=
 github.com/joaosoft/validator v0.0.0-20230531142908-28a5b2f72266 h1:cF3SadVnTY1vwZR/Qu87MZKalKMlbVHdx6ekScwj0q0=
 github.com/joaosoft/validator v0.0.0-20230531142908-28a5b2f72266/go.mod h1:8COIz1FfusHYOuenZCyCwVyssMIJpzV74yRm/Zng3PU=
-github.com/joaosoft/web v0.0.0-20230531143830-cd31d8a8c35e h1:6iZ5BpR2d45gA/0mFiVD/TdE2MrMzuep90ts8lHg6QU=
-github.com/joaosoft/web v0.0.0-20230531143830-cd31d8a8c35e/go.mod h1:o/AtSUa5ODbcVrYZr04rbedGYGsmOxta7OJD46YdbD0=
+github.com/joaosoft/web v0.0.0-20230602093036-331880399e29 h1:nknWlB/I1G7rLJvxjPC/k6YTpeEO0UypkIyAsjl+cWg=
+github.com/joaosoft/web v0.0.0-20230602093036-331880399e29/go.mod h1:o/AtSUa5ODbcVrYZr04rbedGYGsmOxta7OJD46YdbD0=
 github.com/joaosoft/writers v0.0.0-20230531142123-83465954fcda h1:2qopUF9Y7UHkjFcZnmSD1nqlgQvZ0m15zdQL5UjemFE=
 github.com/joaosoft/writers v0.0.0-20230531142123-83465954fcda/go.mod h1:Ycm4M3XU0GDGFDdP03GTlBAgB8R8ZjevPKvZYdhpDeQ=
 github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024/go.mod h1:6v2b51hI/fHJwM22ozAgKL4VKDeJcHhJFhtBdhmNjmU=
